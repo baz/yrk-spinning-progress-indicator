@@ -6,6 +6,7 @@
 
 #import "YRKSpinningProgressIndicator.h"
 
+static NSColor **_finColors;
 
 // Some constants to control the animation
 #define kAlphaWhenStopped   0.15

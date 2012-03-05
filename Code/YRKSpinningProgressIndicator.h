@@ -8,7 +8,6 @@
 @interface YRKSpinningProgressIndicator : NSView {
     int _position;
     int _numFins;
-    NSColor **_finColors;
     
     BOOL _isAnimating;
     BOOL _isFadingOut;
